@@ -317,3 +317,6 @@ a.pure-button-selected {
   background-color: #428f46;
   color: #fff;
 }
+.cf-turnstile {
+  margin-top:10px;
+}
