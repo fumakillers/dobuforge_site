@@ -19,6 +19,17 @@
           return;
         }
 
+        // Turnstile のトークンは自動で name="cf-turnstile-response" の input に入る
+        const tokenInput = form.querySelector('input[name="cf-turnstile-response"]');
+        const turnstileToken = tokenInput ? tokenInput.value : "";
+
+        if (!turnstileToken) {
+          if (resultEl) {
+            resultEl.textContent = "Turnstile の検証が完了していません。数秒待ってから再度お試しください。";
+          }
+          return;
+        }
+
         const email = emailInput.value.trim();
 
         // ボタン連打防止
@@ -36,11 +47,13 @@
             headers: {
               "Content-Type": "application/json"
             },
-            body: JSON.stringify({ email })
+            body: JSON.stringify({
+              email: email,
+              turnstileToken: turnstileToken
+            })
           });
 
           if (!resp.ok) {
-            // Lambda は 200 以外のとき text で "Internal Server Error" とか返す
             const text = await resp.text().catch(() => "");
             if (resultEl) {
               resultEl.textContent = "エラーが発生しました。（" + resp.status + " " + text + "）";
@@ -50,8 +63,6 @@
               resultEl.textContent =
                 "入力いただいたメールアドレス宛に、フォームへのURLを送信しました。メールをご確認ください。";
             }
-            // 必要ならメールアドレスを空に
-            // emailInput.value = "";
           }
         } catch (err) {
           console.error(err);
@@ -62,6 +73,10 @@
           if (submitBtn) {
             submitBtn.disabled = false;
             submitBtn.textContent = "送信";
+          }
+          // 1 回使ったら Turnstile をリセットしておくと親切
+          if (window.turnstile && typeof window.turnstile.reset === "function") {
+            try { window.turnstile.reset(); } catch (_) { /* ignore */ }
           }
         }
       });
