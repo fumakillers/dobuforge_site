@@ -77,16 +77,13 @@
       }
 
       const formData = new FormData(form);
-      const body = {};
-      formData.forEach((value, key) => {
-        body[key] = value;
-      });
+      const body = new URLSearchParams(formData).toString();
 
       try {
         const res  = await fetch(LAMBDA_SUBMIT_URL, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
-          body: JSON.stringify(body)
+          body: body
         });
         const text = await res.text();
 
