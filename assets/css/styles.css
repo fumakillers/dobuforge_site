@@ -265,12 +265,13 @@ html {
 .pure-button {
   font-family: inherit;
   font-size: 100%;
-  padding: 0.5em 1em;
+  padding: 0.2em 1em;
   color: rgba(0, 0, 0, 0.8);
   border: none transparent;
   background-color: #e6e6e6;
   text-decoration: none;
   border-radius: 2px;
+  margin-top: 18px;
 }
 .pure-button:focus,
 .pure-button:hover {
