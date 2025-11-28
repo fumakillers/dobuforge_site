@@ -1,6 +1,6 @@
     window.addEventListener("DOMContentLoaded", function () {
       // ★★ ここをお兄ちゃんの「本番メール送信用 Lambda URL」に差し替え ★★
-      const LAMBDA_SUBMIT_URL = "https://YOUR_LAMBDA_URL_HERE/";
+      const LAMBDA_SUBMIT_URL = "https://tjobihm5engweuexcsohq4cubq0fxxtl.lambda-url.ap-northeast-1.on.aws/";
 
       // -----------------------------
       // 1. token をデコード＆検証して hidden / email に流し込む

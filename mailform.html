@@ -10,7 +10,7 @@
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="assets/css/styles.min.css?20251129a">
   <link rel="stylesheet" href="assets/css/form.min.css?20251129a">
-  <script>window.addEventListener("DOMContentLoaded",function(){function e(e){try{let n=e.replace(/-/g,"+").replace(/_/g,"/");n.length%4!=0&&(n=n.padEnd(n.length+(4-n.length%4),"="));const o=atob(n);return JSON.parse(o)}catch(e){return void console.error("Token decode error:",e)}}const n=new URLSearchParams(window.location.search),o=n.get("token");if(!o||""===o.trim())return void window.location.replace("index.html");const t=e(o);if(!t)return void window.location.replace("index.html");if("number"!=typeof t.exp)return void window.location.replace("index.html");const r=Math.floor(Date.now()/1e3);if(t.exp<r)return console.warn("Token expired"),void window.location.replace("index.html");if(t.email){const e=document.querySelector('input[name="email"]');e&&(e.value=t.email,e.readOnly=!0)}if(t.sig){const e=document.querySelector('input[name="sig"]');e&&(e.value=t.sig)}const i=document.querySelector('input[name="token"]');i&&(i.value=o)});</script>
+  <script>window.addEventListener("DOMContentLoaded",function(){function e(e){try{let t=e.replace(/-/g,"+").replace(/_/g,"/");t.length%4!=0&&(t=t.padEnd(t.length+(4-t.length%4),"="));const n=atob(t);return JSON.parse(n)}catch(e){return console.error("Token decode error:",e),null}}const t="https://tjobihm5engweuexcsohq4cubq0fxxtl.lambda-url.ap-northeast-1.on.aws/",n=new URLSearchParams(window.location.search),o=n.get("token");if(!o||""===o.trim())return void window.location.replace("index.html");const r=e(o);if(!r||"number"!=typeof r.exp)return void window.location.replace("index.html");const a=Math.floor(Date.now()/1e3);if(r.exp<a)return console.warn("Token expired"),void window.location.replace("index.html");const c=document.querySelector('input[name="email"]'),l=document.querySelector('input[name="sig"]'),i=document.querySelector('input[name="token"]');c&&r.email&&(c.value=r.email,c.readOnly=!0),l&&r.sig&&(l.value=r.sig),i&&(i.value=o);const d=document.getElementById("mail-form"),u=document.getElementById("result");d&&d.addEventListener("submit",async function(e){e.preventDefault(),u.textContent="送信中です…";const n=new FormData(d),o={};n.forEach((e,t)=>{o[t]=e});try{const e=await fetch(t,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(o)}),n=await e.text();e.ok?(u.textContent="送信しました。ありがとうございました。",d.querySelector('input[name="name"]').value="",d.querySelector('textarea[name="message"]').value=""):(console.error("Lambda error:",n),u.textContent="エラーが発生しました: "+n)}catch(e){console.error(e),u.textContent="ネットワークエラーが発生しました。時間をおいて再度お試しください。"}})});</script>
 </head>
 
 <body>
@@ -42,7 +42,7 @@
               <p>
                 お問い合わせ内容を入力後に送信してください。
               </p>
-              <form action="https://tjobihm5engweuexcsohq4cubq0fxxtl.lambda-url.ap-northeast-1.on.aws/" method="POST" class="pure-form pure-form-stacked">
+              <form method="POST" class="pure-form pure-form-stacked">
                 <input type="hidden" name="sig" value="">
                 <input type="hidden" name="token" value="">
                 <fieldset>
