@@ -597,7 +597,8 @@ h3 {
 }
 .post-meta {
   font-size: 90%;
-  margin: 0;
+  text-align: center;
+  margin:0;
 }
 .post-images {
   margin: 1em 0;
