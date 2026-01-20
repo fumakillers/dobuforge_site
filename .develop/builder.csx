@@ -26,7 +26,7 @@ public class DobuforgeBuilder
         {
             var partsPath = Path.Combine(partsDirPath, file + partsSuffix);
             var headPath = string.Empty;
-            if (file == "mailform")
+            if (file == "mailform" || file == "contact")
             {
                 headPath = Path.Combine(partsDirPath, "head_mail" + partsSuffix);
             }
