@@ -9,7 +9,6 @@ public class DobuforgeBuilder
     private List<string> partsList = [
         "index",
         "contact",
-        "mailform",
         "products"
     ];
 
@@ -25,15 +24,8 @@ public class DobuforgeBuilder
         foreach (var file in partsList)
         {
             var partsPath = Path.Combine(partsDirPath, file + partsSuffix);
-            var headPath = string.Empty;
-            if (file == "mailform" || file == "contact")
-            {
-                headPath = Path.Combine(partsDirPath, "head_mail" + partsSuffix);
-            }
-            else
-            {
-                headPath = Path.Combine(partsDirPath, "head" + partsSuffix);
-            }
+            var headPath =  Path.Combine(partsDirPath, "head" + partsSuffix);
+            
             var outputFilePath = Path.Combine(repoRootDir, file + ".html");
 
             // replace
