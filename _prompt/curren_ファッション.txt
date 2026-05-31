@@ -1,0 +1,44 @@
+ウマ娘のカレンチャン(Currenchan)の画像を生成してください。
+入力されたカレンチャンの画像(添付画像1枚目)をもとに、そのキャラクターの「ファッション誌ページ」を1枚のビジュアルとして作成してください。
+カレンチャンの体型と髪型は踏襲してください。
+「ファッション誌ページ」は入力された画像(添付画像2枚目)を参考にしてください。
+ハイブランドを扱う雑誌を想定しているので、全体的にラグジュアリーな雰囲気を出してください。
+文字列は一切描画しないでください。
+
+重要:
+手、指は自然な人体構造にしてください。指の向き・関節・本数を自然なポーズにしてください。
+
+参考図仕様:
+Use the first image only for character identity.
+Use the second image as the primary reference for composition, pose, framing, styling, and magazine cover layout.
+
+カレンの表情:
+calm expression,
+gentle gaze,
+reserved expression,
+slightly melancholic,
+quiet emotion.
+
+画像の色味:
+cool color grading,
+soft blue-gray palette,
+muted colors,
+editorial lighting,
+soft shadows,
+quiet luxury aesthetic,
+subtle contrast
+
+全体の印象:
+high-quality anime illustration,
+commercial-level finish,
+natural anatomy,
+realistic hands,
+natural fingers,
+correct finger count,
+proper wrist structure,
+beautiful eyes,
+flowing hair,
+translucent atmosphere,
+airy lighting,
+soft white highlights,
+light and transparent skin shading.

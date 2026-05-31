@@ -1,0 +1,91 @@
+ウマ娘のカレンチャン (Currenchan) の画像を生成してください。
+
+入力されたカレンチャンの画像（添付画像1枚目）をもとに、そのキャラクターの「ハイブランドファッション誌の1ページ」を1枚のビジュアルとして作成してください。
+
+カレンチャンの体型、顔立ち、髪型、瞳、ウマ耳、キャラクター性を維持してください。
+
+入力された画像（添付画像2枚目）を、構図・ポーズ・カメラアングル・ライティング・スタイリング・フレーミングの主要な参考画像として使用してください。
+
+Closely follow the composition, camera angle, pose, framing, lighting, and fashion styling of the second reference image.
+
+Maintain Currenchan's facial features, eye shape, hairstyle, proportions, horse ears, and overall character identity.
+
+ハイブランドを扱うラグジュアリーファッション誌を想定してください。
+
+fashion editorial photography,
+luxury magazine photoshoot,
+editorial composition,
+full-page fashion spread,
+high-fashion editorial,
+commercial-level finish,
+luxury aesthetic,
+quiet luxury aesthetic.
+
+文字列は描画しないでください。
+
+no text,
+no logo,
+no typography,
+no watermark.
+
+衣装:
+
+luxury modern qipao,
+elegant Chinese-inspired fashion,
+high-fashion interpretation of a qipao,
+premium fabric,
+refined details,
+sophisticated design,
+tasteful chest opening,
+fashion editorial styling.
+
+カレンの表情:
+
+calm expression,
+gentle gaze,
+reserved expression,
+slightly melancholic,
+quiet emotion.
+
+画像の色味:
+
+cool color grading,
+soft blue-gray palette,
+muted colors,
+editorial lighting,
+soft shadows,
+quiet luxury aesthetic,
+subtle contrast.
+
+全体の印象:
+
+high-quality anime illustration,
+commercial-level finish,
+natural anatomy,
+beautiful eyes,
+flowing hair,
+translucent atmosphere,
+airy lighting,
+soft white highlights,
+light and transparent skin shading.
+
+重要:
+
+手、指は自然な人体構造にしてください。
+
+realistic hands,
+natural fingers,
+correct finger count,
+proper wrist structure,
+correct hand anatomy,
+natural finger pose,
+well-formed hands.
+
+Avoid:
+extra fingers,
+missing fingers,
+deformed hands,
+broken wrists,
+twisted anatomy,
+low quality,
+blurry details.
