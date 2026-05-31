@@ -1,2 +1,2 @@
 # dobuware_site
-自分用privateリポジトリ
+自分用リポジトリ
