@@ -1,0 +1,71 @@
+ウマ娘のカレンチャン(Currenchan)の画像を生成してください。
+
+入力されたカレンチャンの画像(添付画像)をもとに、そのキャラクターの「ハイファッションブランドを扱うファッション誌の雑誌広告ページ」を1枚のビジュアルとして作成してください。
+
+高級ファッション誌の見開き広告をイメージしてください。
+単なる商品紹介ではなく、ハイブランドのキャンペーンビジュアルのような洗練された世界観を重視してください。
+
+重要:
+カレンチャンの体型、顔立ち、髪型、瞳、ウマ耳、キャラクター性を維持してください。
+手、指は自然な人体構造にしてください。
+指の向き・関節・本数を自然なポーズにしてください。
+
+参考図仕様:
+Use the first image only for character identity.
+Use the second image as the primary reference for overall mood, luxury advertising style, visual storytelling, editorial presentation, and premium lingerie campaign atmosphere.
+
+Scene:
+luxury lingerie campaign,
+high-end fashion magazine advertisement,
+quiet luxury aesthetic,
+exclusive designer collection,
+editorial photography style,
+premium boutique hotel suite,
+soft morning light through large windows,
+elegant interior,
+refined atmosphere,
+captured between poses during a fashion shoot,
+natural body language,
+subtle confidence,
+beautiful composition,
+commercial advertising quality.
+
+カレンの表情:
+calm expression,
+gentle gaze,
+reserved expression,
+slightly melancholic,
+quiet emotion,
+soft smile,
+effortless elegance.
+
+画像の色味:
+soft natural daylight,
+editorial lighting,
+delicate highlights,
+soft shadows,
+subtle contrast,
+muted luxury palette,
+warm ivory tones,
+gentle blush pink accents,
+translucent atmosphere,
+premium magazine color grading.
+
+全体の印象:
+high-quality anime illustration,
+commercial-level finish,
+fashion editorial quality,
+luxury advertising campaign,
+natural anatomy,
+realistic hands,
+natural fingers,
+correct finger count,
+proper wrist structure,
+beautiful eyes,
+flowing hair,
+light and transparent skin shading,
+elegant silhouette,
+refined femininity,
+tasteful presentation,
+premium lingerie advertisement,
+international fashion magazine standard.
