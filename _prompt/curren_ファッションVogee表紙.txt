@@ -2,7 +2,7 @@
 入力されたカレンチャンの画像(添付画像1枚目)をもとに、そのキャラクターの「ファッション誌表紙」を1枚のビジュアルとして作成してください。
 「ファッション誌表紙」は入力された画像(添付画像2枚目)を参考にしてください。
 ハイブランドを扱う雑誌を想定しているので、全体的にラグジュアリーな雰囲気を出してください。
-雑誌名は「VOGEE」で、その他の文字列は一切描画しないでください。
+雑誌名は「VOGEE」で、発行年月以外の文字は一切描画しないでください。
 
 重要:
 カレンチャンの体型、顔立ち、髪型、瞳、ウマ耳、キャラクター性を維持してください。
@@ -41,4 +41,13 @@ flowing hair,
 translucent atmosphere,
 airy lighting,
 soft white highlights,
-light and transparent skin shading.
+light and transparent skin shading,
+
+candid editorial photography,
+caught in a fleeting moment,
+fashion before glamour,
+subtle storytelling,
+quiet elegance,
+moment of reflection,
+urban luxury atmosphere,
+natural unposed beauty.

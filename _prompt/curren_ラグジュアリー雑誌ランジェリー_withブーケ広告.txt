@@ -1,0 +1,93 @@
+ウマ娘のカレンチャン (Currenchan) とカレンブーケドール (Curren Bouquetd'or) の画像を生成してください。
+
+入力された2枚の画像をもとに、そのキャラクターたちが登場する「ハイファッションブランドを扱うファッション誌の見開き広告ページ」を1枚のビジュアルとして作成してください。
+
+1枚目の画像はカレンチャンのキャラクター参照です。
+2枚目の画像はカレンブーケドールのキャラクター参照です。
+
+高級ファッション誌のラグジュアリー広告をイメージしてください。
+
+単なる商品紹介ではなく、ハイブランドのキャンペーンビジュアルのような洗練された世界観を重視してください。
+
+Important:
+Use the first image only for Currenchan's character identity.
+Use the second image only for Curren Bouquetd'or's character identity.
+Maintain each character's body type, face, hairstyle, eye color, horse ears, tail, and overall character identity.
+Hands and fingers must be anatomically correct.
+Natural finger count.
+Natural wrist structure.
+Natural hand poses.
+No distorted fingers.
+No merged fingers.
+
+Scene:
+luxury lingerie campaign,
+high-end fashion magazine advertisement,
+quiet luxury aesthetic,
+exclusive designer collection,
+editorial photography style,
+luxury fashion house interior,
+private couture salon,
+high-end boutique hotel lounge,
+elegant architectural space,
+soft morning light through large windows,
+refined atmosphere,
+captured between poses during a fashion shoot,
+natural body language,
+subtle confidence,
+beautiful composition,
+commercial advertising quality.
+Dual Character Composition:
+Both Currenchan and Curren Bouquetd'or must appear together in the same image.
+This is a dual-model luxury fashion campaign.
+Neither character should be omitted.
+Do not generate a solo portrait.
+Do not focus on only one character.
+Both characters should have equal visual importance.
+Both characters should occupy similar visual space.
+Both characters should be fully visible.
+Neither character should appear only in the background.
+Neither character should be cropped out.
+The composition should emphasize the harmony, contrast, and relationship between the two characters.
+The two characters should naturally interact with each other.
+A sense of friendship, trust, elegance, and shared presence should be visible.
+The image should tell a story about the relationship between the two characters.
+
+Expressions:
+calm expression,
+gentle gaze,
+reserved expression,
+slightly melancholic,
+quiet emotion,
+soft smile,
+effortless elegance.
+
+Color Palette:
+soft natural daylight,
+editorial lighting,
+delicate highlights,
+soft shadows,
+subtle contrast,
+muted luxury palette,
+warm ivory tones,
+gentle blush pink accents,
+translucent atmosphere,
+premium magazine color grading.
+Overall Impression:
+high-quality anime illustration,
+commercial-level finish,
+fashion editorial quality,
+luxury advertising campaign,
+natural anatomy,
+realistic hands,
+natural fingers,
+correct finger count,
+proper wrist structure,
+beautiful eyes,
+flowing hair,
+light and transparent skin shading,
+elegant silhouette,
+refined femininity,
+tasteful presentation,
+premium lingerie advertisement,
+international fashion magazine standard.
