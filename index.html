@@ -58,8 +58,9 @@
             <div class="post-description">
               <div class="post-images pure-g">
                 <div class="pure-u-1 pure-u-lg-1-1">
+                  <!--LCP判定されているのでfetchpriority="high"にしているが画面外から出るような場合はlazyにする-->
                   <img class="pure-img-responsive" src="assets/image/20260630212601295.webp"
-                    width="993" height="1074" loading="lazy" alt="PageSpeed Insights">
+                    width="993" height="1074" fetchpriority="high" decoding="async" alt="PageSpeed Insights">
                 </div>
               </div>
               <p>
@@ -129,7 +130,7 @@
               <div class="post-images pure-g">
                 <div class="pure-u-1 pure-u-lg-1-1">
                   <img class="pure-img-responsive" src="assets/image/fukigen_title_mid.webp"
-                    width="1934" height="1159" loading="lazy" alt="fukigen dev">
+                    width="1934" height="1159" loading="lazy" decoding="async" alt="fukigen dev">
                 </div>
               </div>
               <p>
