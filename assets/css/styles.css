@@ -508,7 +508,7 @@ html {
 }
 a {
   text-decoration: none;
-  color: #3d92c9;
+  color: #58b4f0;
 }
 a:focus,
 a:hover {
@@ -570,7 +570,7 @@ h3 {
 }
 .nav-item a:focus,
 .nav-item a:hover {
-  border: 2px solid #3d92c9;
+  border: 2px solid #58b4f0;
   text-decoration: none;
 }
 .content-subhead {
@@ -634,5 +634,34 @@ h3 {
     top: 0;
     bottom: 0;
     width: 340px;
+  }
+}
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.image-grid img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.image-grid img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+@media (max-width: 768px) {
+  .image-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .image-grid {
+    grid-template-columns: 1fr;
   }
 }
