@@ -45,15 +45,38 @@
         <h1 class="content-subhead">Posts</h1>
         <section class="post">
           <header class="post-header">
+            <h2 class="post-title">Fire Tablet Remote</h2>
+            <p class="post-meta">2026-08-09</p>
+          </header>
+          <div class="post-description">
+            <div class="post-images pure-g">
+              <div class="pure-u-1 pure-u-lg-1-1">
+                <!--LCP判定されているのでfetchpriority="high"にしているが画面外から出るような場合はlazyにする-->
+                <img class="pure-img-responsive" src="assets/image/20260809_fire_remote.webp"
+                  width="1280" height="720" fetchpriority="high" decoding="async" alt="Fire Tablet Remote">
+              </div>
+            </div>
+            <p>
+              自宅PCの左側にアームでAmazon FireHDタブレットを設置しているのですが、タブレットのタップ操作が億劫であまり利用していませんでした。そこで手元で操作できたらいいなーと思い、クライアントサーバ式でタブレットを操作するツールを作りました。
+              サーバ側はFireHDでの動作を想定し常駐させるためにKotlinで開発、クライアント側はMotorola Edge 50 Proでの動作を想定し、.NET MAUIで開発しました。説明はめんどくさいので以下のRepositoryを参照で。
+            </p>
+            <p>
+              <a href="https://github.com/fumakillers/FireTabletRemote" target="_blank">https://github.com/fumakillers/FireTabletRemote</a>
+            </p>
+            <p>
+              　
+            </p>
+          </div>
+
+          <header class="post-header">
             <h2 class="post-title">PageSpeed Insights</h2>
             <p class="post-meta">2026-06-30</p>
           </header>
           <div class="post-description">
             <div class="post-images pure-g">
               <div class="pure-u-1 pure-u-lg-1-1">
-                <!--LCP判定されているのでfetchpriority="high"にしているが画面外から出るような場合はlazyにする-->
                 <img class="pure-img-responsive" src="assets/image/20260630212601295.webp"
-                  width="993" height="1074" fetchpriority="high" decoding="async" alt="PageSpeed Insights">
+                  width="993" height="1074" loading="lazy" decoding="async" alt="PageSpeed Insights">
               </div>
             </div>
             <p>
