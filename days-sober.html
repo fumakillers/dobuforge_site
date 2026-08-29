@@ -107,9 +107,10 @@
 
     const elapsedDays = Math.floor((today - startDate) / MS_PER_DAY);
     const daysSober = Math.max(0, elapsedDays + 1);
+    const dayLabel = daysSober === 1 ? "Day" : "Days";
 
     document.getElementById("sober-days").textContent = daysSober;
-    document.getElementById("sober-badge").textContent = `${daysSober} Days`;
+    document.getElementById("sober-badge").textContent = `${daysSober} ${dayLabel}`;
   })();
 </script>
 </body>
