@@ -42,7 +42,7 @@
                   <div class="sober-icon" aria-hidden="true">♥</div>
                   <div>
                     <p class="sober-title">Your Sobriety Journey</p>
-                    <p class="sober-since">Since August 29, 2026</p>
+                    <p class="sober-since">Since September 19, 2026</p>
                   </div>
                 </div>
 
@@ -59,8 +59,26 @@
                   <p class="slip-eyebrow">HISTORY</p>
                   <h3 class="slip-title" id="slip-log-title">Slip Log</h3>
                 </div>
-                <span class="slip-count">01</span>
+                <span class="slip-count">02</span>
               </div>
+
+              <article class="slip-entry">
+                <div class="slip-marker" aria-hidden="true"></div>
+                <div class="slip-main">
+                  <time class="slip-date" datetime="2026-09-19">SEP 19, 2026</time>
+                  <span class="slip-location">At Home</span>
+                  <div class="slip-period">
+                    <time datetime="2026-08-29">Aug 29, 2026</time>
+                    <span class="slip-line" aria-hidden="true"></span>
+                    <time datetime="2026-09-19">Sep 19, 2026</time>
+                  </div>
+                  <span class="slip-caption">Previous sober period</span>
+                </div>
+                <div class="slip-duration">
+                  <strong>21</strong>
+                  <span>DAYS</span>
+                </div>
+              </article>
 
               <article class="slip-entry">
                 <div class="slip-marker" aria-hidden="true"></div>
@@ -102,7 +120,7 @@
       );
     }
 
-    const startDate = dateOnlyUtc(2026, 8, 29);
+    const startDate = dateOnlyUtc(2026, 9, 19);
     const today = todayOnlyUtc();
 
     const elapsedDays = Math.floor((today - startDate) / MS_PER_DAY);
